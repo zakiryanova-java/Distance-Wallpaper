@@ -1,4 +1,4 @@
-public class Task01 {
+public class Distance {
     public static void main(String[] args) {
         int litresForHundredKm=20;
         double litresLeft=5;

@@ -1,4 +1,4 @@
-public class Task02 {
+public class Wallpaper {
     public static void main(String[] args) {
         int width = 5;
         int length = 6;
