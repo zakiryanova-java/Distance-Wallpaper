@@ -5,10 +5,10 @@ public class Wallpaper {
         double height = 2.85;
         int perimeter = (width + length) * 2;
         double wallpaperWidth = 1.06;
-        double wallpaperSheet = perimeter / wallpaperWidth;
+        int wallpaperSheet = (int) (perimeter / wallpaperWidth) + 1;
         int coilLength = 10;
-        double sheetsFromCoil = coilLength / height;
-        int coilQuantity = ((int) wallpaperSheet + 1) / (int) sheetsFromCoil;
+        int sheetsFromCoil = (int) (coilLength / height);
+        int coilQuantity = wallpaperSheet / sheetsFromCoil;
         System.out.println(coilQuantity);
     }
 
