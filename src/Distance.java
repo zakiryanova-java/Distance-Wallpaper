@@ -1,8 +1,8 @@
 public class Distance {
     public static void main(String[] args) {
-        int litresForHundredKm=20;
-        double litresLeft=5;
-        double distance=litresLeft/litresForHundredKm*100;
+        int litresForHundredKm = 20;
+        int litresLeft = 5;
+        int distance = litresLeft * 100 / litresForHundredKm;
 
         System.out.println(distance);
     }
